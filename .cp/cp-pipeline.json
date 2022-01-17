@@ -40,7 +40,7 @@
           "params": {
             "config": {
               "threshold": "CRITICAL",
-              "vuln_type": ["OS"]
+              "vuln_type": ["OS", "LIBRARY"]
             }
           }
         }
