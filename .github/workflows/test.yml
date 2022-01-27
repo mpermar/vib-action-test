@@ -21,7 +21,7 @@ jobs:
         id: prep
         run: |
           echo "${{ github.repository }}"
-          cat vib-action/README.MD
+          cat vib-action-test/README.MD
       - uses: mpermar/vib-action@main
         with:
           path: '/'
