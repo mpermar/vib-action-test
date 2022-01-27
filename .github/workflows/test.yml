@@ -22,7 +22,7 @@ jobs:
         run: |
           echo "${{ github.repository }}"
           ls -la
-          cat README.MD
+          cat README.md
       - uses: mpermar/vib-action@main
         with:
           path: '/'
