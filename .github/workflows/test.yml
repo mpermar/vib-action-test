@@ -23,7 +23,7 @@ jobs:
           echo "${{ github.repository }}"
           ls -la
           cat README.md
-      - uses: mpermar/vib-action@main
+      - uses: vmware-samples/vmware-image-builder/vib-action@main
         with:
           path: '/'
           config: '.cp'
