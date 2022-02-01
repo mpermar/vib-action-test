@@ -1,6 +1,6 @@
 name: 'build-test'
 on: # rebuild any PRs and main branch changes
-  pull_request_target:
+  pull_request:
   push:
     branches:
       - main
@@ -23,6 +23,7 @@ jobs:
           echo "${{ github.repository }}"
           ls -la
           cat README.md
+          env
       - uses: vmware-samples/vmware-image-builder-examples/vib-action@main
         with:
           path: '/'
