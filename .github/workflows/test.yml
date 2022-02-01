@@ -24,6 +24,7 @@ jobs:
           ls -la
           cat README.md
           env
+          cat $GITHUB_EVENT_PATH
       - uses: vmware-samples/vmware-image-builder-examples/vib-action@main
         with:
           path: '/'
