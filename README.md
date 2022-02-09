@@ -5,4 +5,4 @@ Testing
 
 Again. Another change.
 
-Do latest tests work?
+Do latest tests work from PRs?
