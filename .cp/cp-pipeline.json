@@ -4,7 +4,7 @@
       "context": {
         "resources": {
           "url": "https://github.com/bitnami/charts/tarball/06f1c0baa4be6da77b4fef0d6ec7117f3066dec8",
-          "path": "/bitnami/wordpress"
+          "path": "{VIB_ENV_PATH}"
         }
       },
       "actions": [
