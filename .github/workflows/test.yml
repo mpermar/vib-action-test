@@ -31,4 +31,4 @@ jobs:
           config: '.cp'
           pipeline: 'cp-pipeline.json'
         env:
-          VIV_ENV_PATH: '/bitnami/wordpres/
+          VIB_ENV_PATH: '/bitnami/wordpres/
