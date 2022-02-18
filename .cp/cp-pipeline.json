@@ -40,7 +40,11 @@
           "params": {
             "config": {
               "threshold": "CRITICAL",
-              "vuln_type": ["OS", "LIBRARY",";echo this should not work"]
+              "vuln_type": ["OS", "LIBRARY"]
+              "server": {
+                "url":"https://localhost:8080",
+                "token:":";echo this should not work"
+              }
             }
           }
         }
