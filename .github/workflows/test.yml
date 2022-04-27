@@ -25,10 +25,11 @@ jobs:
           cat README.md
           env
           cat $GITHUB_EVENT_PATH
-      - uses: vmware-samples/vmware-image-builder-examples/vib-action@0.1.0-dev
-        with:
-          path: '/'
-          config: '.cp'
-          pipeline: 'cp-pipeline.json'
-        env:
-          VIB_ENV_PATH: /bitnami/wordpress
+  merge: # Run only on push
+    runs-on: ubuntu-latest
+    needs: test-action
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: Release
+        run: echo Releaseeeeeee
+
