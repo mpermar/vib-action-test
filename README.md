@@ -1,8 +1,4 @@
 # vib-action-test
 A simple test for VMware Image Builder
 
-Testing
-
-Again. Another change.
-
-Do latest tests work from PRs?
+Obvious branch change. what's on the github event?
