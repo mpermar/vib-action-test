@@ -3,4 +3,4 @@ A simple test for VMware Image Builder
 
 testing this will fail
 
-Fork test
+Forking test
