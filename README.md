@@ -2,3 +2,5 @@
 A simple test for VMware Image Builder
 
 Should work.
+
+Test
